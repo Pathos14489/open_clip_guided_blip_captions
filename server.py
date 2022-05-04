@@ -181,8 +181,8 @@ if __name__ == "__main__":
     clip, _, preprocess = open_clip.create_model_and_transforms('ViT-B-32-quickgelu', pretrained='laion400m_e32')
 
     reader = easyocr.Reader(['en'])
-    #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    device = torch.device('cuda')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cuda')
     image_size = 384
 
     model_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth'
