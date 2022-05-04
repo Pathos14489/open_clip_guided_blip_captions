@@ -52,17 +52,17 @@ def main():
     if opt is None:
         return jsonify({"error": "no json data"})
     if "type" not in opt:
-        opt["type"] = 0
+        opt["type"] = 1
     if "max_length" not in opt:
-        opt["max_length"] = 20
+        opt["max_length"] = 100
     if "min_length" not in opt:
         opt["min_length"] = 5
     if "top_p" not in opt:
-        opt["top_p"] = 0.9
+        opt["top_p"] = 0.85
     if "num_beams" not in opt:
         opt["num_beams"] = 3
     if "batch_size" not in opt:
-        opt["batch_size"] = 5
+        opt["batch_size"] = 200
     if "pony_fix" not in opt:
         opt["pony_fix"] = False
     
