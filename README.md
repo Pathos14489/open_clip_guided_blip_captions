@@ -1,4 +1,4 @@
-# open_clip_guided_blip_captions
+# BLIP+CLIP: Open Clip Guided BLIP Captions
 does what it says on the tin.
 
 ## Install
