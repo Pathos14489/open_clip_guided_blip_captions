@@ -1,5 +1,6 @@
 # BLIP+CLIP: Open Clip Guided BLIP Captions
-does what it says on the tin.
+
+Generates a batch of BLIP captions and scores them using Open CLIP, then returns the sorted captions. Results in more consistently correct captions.
 
 ## Install
 Clone the https://github.com/salesforce/BLIP repo, then copy this in. Make sure the other one works, run 
